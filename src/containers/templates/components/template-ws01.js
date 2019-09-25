@@ -5,7 +5,7 @@ const TemplateWS01 = (props) => {
     return(
         <Grid container>
             <Grid item>
-                
+                Hello World!!
             </Grid>
         </Grid>
     );
