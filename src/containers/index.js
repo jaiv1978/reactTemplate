@@ -7,7 +7,7 @@ import MainStyle from '../styles/containers/index-style';
 const Main = (props) => {
     const classes = MainStyle();
     return(
-        <Container fixed className={classes.root}>
+        <Container maxWidth={false} className={classes.root}>
             <Router>
                 <Switch>
                     <Route exact={true} path="/" component={TemplateWS01} ></Route>

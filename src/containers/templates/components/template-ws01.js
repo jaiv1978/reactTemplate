@@ -1,18 +1,16 @@
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
+import MenuBar from '../../common/components/menu-bar';
 import Grid from '@material-ui/core/Grid';
+import MediaImages from '../../common/components/media-images';
+import landscape from '../../../lib/images/landscape.jpg'
 import '../../../styles/containers/templates/components/template-ws01-style.css';
 
 const TemplateWS01 = (props) => {
     return(
-        <Grid container >
-            <Grid xs={12} sm={6} className="panel" item>
-                <Paper >Hello World 1</Paper>
-            </Grid>
-            <Grid xs={12} sm={6} className="panel" item>
-                <Paper >Hello World 2</Paper>
-            </Grid>            
-        </Grid>
+        <Grid container>
+            <Grid xs={12} item><MenuBar /></Grid>
+            <Grid xs={12} style={{ height : "100%" }} item><img src={landscape} alt="landscape" className="imagen" ></img> </Grid>
+        </Grid> 
     );
 }
 
