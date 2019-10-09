@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 const MenuBar = (props) => {
 
     return(
-        <Navbar expand="lg" bg="dark" variant="dark">
+        <Navbar expand="lg" bg="dark" variant="dark" fixed="top" >
             <Navbar.Brand href="#home">Brand</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

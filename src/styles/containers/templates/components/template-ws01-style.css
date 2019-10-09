@@ -4,6 +4,20 @@
     height: auto;
 }
 
+.div-main-picture {
+    position : relative;
+    height : 100%; 
+    text-align : center
+}
+
+.div-text-picture {
+    position: absolute;
+    top : 80%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align : center;
+    color : #ffffff
+}
 
 [class="panel"]{
     height: 5rem;
@@ -12,40 +26,27 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px){
-    .mainPhotos{
-        height: 16rem;
-        background-color: red;
+    .div-text-picture {
+        display: none;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px){
-    .mainPhotos{
-        height: 16rem;
-        background-color: red;
-    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px){
-    .mainPhotos{
-        height: 30rem;    
-        background-color: red;
-    }    
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px){
-    .mainPhotos{
-        height: 30rem;    
-        background-color: red;
-    }    
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px){
-    .mainPhotos{
-        height: 40rem;
-        background-color: red;
-    }    
+
 }
